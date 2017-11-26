@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Nov 26 12:32:48 MST 2017
+#Sun Nov 26 12:50:07 MST 2017
 8.set=ANDROID_RESOURCE
 1.base=/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/res/debug/resources-debug.ap_
 1.file=/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/res/debug/resources-debug.ap_/res/layout-v17/activity_main.xml

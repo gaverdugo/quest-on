@@ -28,21 +28,21 @@ public final class R {
         public static final int alignBounds = 0x7f040002;
         public static final int alignMargins = 0x7f040003;
         public static final int bottom = 0x7f040004;
-        public static final int center = 0x7f040007;
-        public static final int center_horizontal = 0x7f040008;
-        public static final int center_vertical = 0x7f040009;
-        public static final int clip_horizontal = 0x7f04000a;
-        public static final int clip_vertical = 0x7f04000b;
-        public static final int end = 0x7f040013;
-        public static final int fill = 0x7f040014;
-        public static final int fill_horizontal = 0x7f040015;
-        public static final int fill_vertical = 0x7f040016;
-        public static final int horizontal = 0x7f040019;
-        public static final int left = 0x7f04001b;
-        public static final int right = 0x7f04001f;
-        public static final int start = 0x7f040020;
-        public static final int top = 0x7f040026;
-        public static final int vertical = 0x7f040028;
+        public static final int center = 0x7f040008;
+        public static final int center_horizontal = 0x7f040009;
+        public static final int center_vertical = 0x7f04000a;
+        public static final int clip_horizontal = 0x7f04000b;
+        public static final int clip_vertical = 0x7f04000c;
+        public static final int end = 0x7f040014;
+        public static final int fill = 0x7f040015;
+        public static final int fill_horizontal = 0x7f040016;
+        public static final int fill_vertical = 0x7f040017;
+        public static final int horizontal = 0x7f04001a;
+        public static final int left = 0x7f04001c;
+        public static final int right = 0x7f040020;
+        public static final int start = 0x7f040021;
+        public static final int top = 0x7f040027;
+        public static final int vertical = 0x7f040029;
     }
     public static final class styleable {
         public static final int[] GridLayout = { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b };
