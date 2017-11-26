@@ -1,0 +1,96 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:16:1-20:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:18:5-42
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:12:22-63
+application
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:14:5-36:19
+MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:16:9-37
+	android:allowBackup
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:18:9-40
+activity#com.queston.task1.Login
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:excludeFromRecents
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:19:83-116
+	android:noHistory
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:19:58-82
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:19:19-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:20:9-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.queston.task1.MainActivity
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:25:20-29:20
+	android:label
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:26:13-58
+activity#com.queston.task1.QuestActivity
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:30:9-33:20
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:31:13-59
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:38:5-79
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:38:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:39:5-67
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:39:22-64

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quest On!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_lista">Lista</string>
+    <string name="textview">Hola Persona!</string>
+    <string name="title_activity_quests">Quests</string>
+
+</resources>

@@ -1,0 +1,132 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .metadata/
+* .metadata/.lock
+* .metadata/.log
+* .metadata/.plugins/
+* .metadata/.plugins/org.eclipse.cdt.core/
+* .metadata/.plugins/org.eclipse.cdt.core/.log
+* .metadata/.plugins/org.eclipse.cdt.make.core/
+* .metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+* .metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp
+* .metadata/.plugins/org.eclipse.core.resources/
+* .metadata/.plugins/org.eclipse.core.resources/.history/
+* .metadata/.plugins/org.eclipse.core.resources/.history/6f/
+* .metadata/.plugins/org.eclipse.core.resources/.history/6f/a092d7cd620d00131ad0fd9b6aa1fa37
+* .metadata/.plugins/org.eclipse.core.resources/.root/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+* .metadata/.plugins/org.eclipse.core.resources/.root/3.tree
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+* .metadata/.plugins/org.eclipse.core.runtime/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.debug.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.core.prefs
+* .metadata/.plugins/org.eclipse.jdt.core/
+* .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+* .metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache
+* .metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+* .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+* .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+* .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+* .metadata/.plugins/org.eclipse.jdt.launching/
+* .metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+* .metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/
+* .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2013/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2013/8/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2013/8/35/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2013/8/35/refactorings.history
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2013/8/35/refactorings.index
+* .metadata/.plugins/org.eclipse.ltk.ui.refactoring/
+* .metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.ide/
+* .metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/
+* .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/workbench.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+* .metadata/.plugins/org.eclipse.wst.xml.core/
+* .metadata/.plugins/org.eclipse.wst.xml.core/default_catalog.xml
+* .metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml
+* .metadata/version.ini
+* ic2-web.png
+* ic_launcher-web.png
+* icon-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+gridlayout-v7 => [com.android.support:gridlayout-v7:18.0.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/ksoap2-3.0.0-dependencies.jar => app/libs/ksoap2-3.0.0-dependencies.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
