@@ -7,12 +7,6 @@ import android.view.View;
 import android.widget.TextView;
 
 public class QuestActivity extends Activity{
-	
-	
-	
-	
-	
-	
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		
@@ -37,9 +31,4 @@ public class QuestActivity extends Activity{
 	public void clickBack(View v){
 		finish();
 	}
-	
-	
-	
-	
-	
 }

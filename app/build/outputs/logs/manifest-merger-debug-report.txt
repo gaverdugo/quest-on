@@ -4,7 +4,9 @@ ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidMa
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
-MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:16:1-20:12
+MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:14:4-17:12
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-41:12
@@ -26,8 +28,12 @@ uses-sdk
 ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:15:5-42
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
@@ -48,8 +54,12 @@ ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidMa
 		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:12:22-63
 application
 ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:14:5-36:19
-MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:gridlayout-v7:18.0.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-18.0.0.aar/3c2412e96649c70bd4d4dc5fd12d5ae1/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:16:5-19
 	android:label
 		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:17:9-41
 	android:icon
