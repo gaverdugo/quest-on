@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.queston.task1"
-        minSdkVersion 8
+        minSdkVersion 15
         targetSdkVersion 21
     }
 
