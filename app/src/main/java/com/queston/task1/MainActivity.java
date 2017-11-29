@@ -243,7 +243,7 @@ public class MainActivity extends Activity {
 
 
         }
-        return logstatus == 1;
+        return logstatus == 0;
 
     }
 

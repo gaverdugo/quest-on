@@ -5,31 +5,36 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1511882192394"
+    timestamp="1511928576865"
     token="7447689021962448716"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="229" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="39" />
     <task
         name="verifier"
-        duration="0" />
+        duration="7" />
+
+    <artifact
+        location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1511881676864"
+        timestamp="1511928017846"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
@@ -52,9 +57,6 @@
             location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
@@ -63,21 +65,18 @@
         <artifact
             location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1511882171095"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1511882192394"
-        verifier="COLD_SWAP_REQUESTED" />
+        ir-eligibility="COMPATIBLE"
+        timestamp="1511928576865"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+    </build>
 
 </instant-run>

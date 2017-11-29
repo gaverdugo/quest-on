@@ -32,8 +32,8 @@ public class Login extends Activity {
     TextView registrar;
     Httppostaux post;
     // String URL_connect="http://www.scandroidtest.site90.com/acces.php";
-    String IP_Server="queston.web44.net";//IP DE NUESTRO PC
-    String URL_connect="http://"+IP_Server+"/ws/access.php";//ruta en donde estan nuestros archivos
+    String IP_Server="165.227.92.254";//IP DE NUESTRO PC
+    String URL_connect="http://"+IP_Server+"/access.php";//ruta en donde estan nuestros archivos
   
     boolean result_back;
     private ProgressDialog pDialog;
@@ -112,13 +112,6 @@ public class Login extends Activity {
 		   //realizamos una peticion y como respuesta obtenes un array JSON
       		JSONArray jdata=post.getserverdata(postparameters2send, URL_connect);
 
-      		/*como estamos trabajando de manera local el ida y vuelta sera casi inmediato
-      		 * para darle un poco realismo decimos que el proceso se pare por unos segundos para poder
-      		 * observar el progressdialog
-      		 * la podemos eliminar si queremos
-      		 */
-		    SystemClock.sleep(950);
-
 		    //si lo que obtuvimos no es null
 		    	if (jdata!=null && jdata.length() > 0){
 
@@ -133,7 +126,7 @@ public class Login extends Activity {
 					}		            
 
 					//validamos el valor obtenido
-		    		 if (logstatus==0){// [{"logstatus":"0"}] 
+		    		 if (logstatus==1){// [{"logstatus":"0"}]
 		    			 Log.e("loginstatus ", "invalido");
 		    			 return false;
 		    		 }
