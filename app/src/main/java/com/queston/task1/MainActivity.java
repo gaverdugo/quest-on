@@ -125,7 +125,7 @@ public class MainActivity extends Activity {
 
 
                 String nomQuest = "Hi";
-                i.putExtra("nomQuest", nombre.getText());
+                i.putExtra("nomQues", nombre.getText());
                 String desQuest = "World";
                 i.putExtra("desQuest", desc.getText());
 
