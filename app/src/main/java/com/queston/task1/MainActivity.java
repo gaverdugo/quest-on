@@ -35,8 +35,8 @@ public class MainActivity extends Activity {
     ArrayList<String> tasks = new ArrayList<String>();
     ArrayList<String> desc_tasks = new ArrayList<String>();
     Httppostaux post;
-    String IP_Server = "queston.web44.net";//IP DE NUESTRO PC
-    String URL_connect = "http://" + IP_Server + "/ws/actualizaQuest.php";
+    String IP_Server = "165.227.92.254";//IP DE NUESTRO PC
+    String URL_connect = "http://" + IP_Server + "/actualizaQuest.php";
     private ProgressDialog pDialog;
 
 
@@ -48,6 +48,13 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle saveInstanceState) {
         setContentView(R.layout.activity_main);
         super.onCreate(saveInstanceState);
+        pDialog = new ProgressDialog(MainActivity.this);
+        pDialog.setMessage("Autenticando....");
+        pDialog.setIndeterminate(false);
+        pDialog.setCancelable(false);
+
+        post = new Httppostaux();
+
         Intent i = getIntent();
         TextView t = (TextView) findViewById(R.id.txtLat);
         String usuario = i.getStringExtra("user");
@@ -59,6 +66,12 @@ public class MainActivity extends Activity {
     }
     //FIN DE onCreate
 
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        pDialog.dismiss();
+    }
 
     //Esto es del menu.. luego lo movemos
     @Override
@@ -83,7 +96,7 @@ public class MainActivity extends Activity {
         }
 
 
-        new asyncactualizar().execute(Double.toString(latitude), Double.toString(longitude));
+        new AsyncActualizar().execute(Double.toString(latitude), Double.toString(longitude));
 
 
         Toast.makeText(getApplicationContext(), "Lat: " + latitude + "\nLon:" + longitude, Toast.LENGTH_SHORT).show();
@@ -125,7 +138,7 @@ public class MainActivity extends Activity {
 
 
                 String nomQuest = "Hi";
-                i.putExtra("nomQues", nombre.getText());
+                i.putExtra("nomQuest", nombre.getText());
                 String desQuest = "World";
                 i.putExtra("desQuest", desc.getText());
 
@@ -145,15 +158,11 @@ public class MainActivity extends Activity {
     }
 
 
-    class asyncactualizar extends AsyncTask<String, String, String> {
+    class AsyncActualizar extends AsyncTask<String, String, String> {
 
         @Override
         protected void onPreExecute() {
             //para el progress dialog
-            pDialog = new ProgressDialog(MainActivity.this);
-            pDialog.setMessage("Autenticando....");
-            pDialog.setIndeterminate(false);
-            pDialog.setCancelable(false);
             pDialog.show();
         }
 
@@ -180,39 +189,38 @@ public class MainActivity extends Activity {
             Log.e("onPostExecute=", "" + result);
         }
 
-    }
-
-
-    public boolean obtenquest(double latpost, double lonpost) {
+        public boolean obtenquest(double latpost, double lonpost) {
 
  	/*Creamos un ArrayList del tipo nombre valor para agregar los datos recibidos por los parametros anteriores
       * y enviarlo mediante POST a nuestro sistema para relizar la validacion*/
-        ArrayList<NameValuePair> postparameters2send = new ArrayList<>();
+            ArrayList<NameValuePair> postparameters2send = new ArrayList<>();
 
-        postparameters2send.add(new BasicNameValuePair("latitude", Double.toString(latpost)));
-        postparameters2send.add(new BasicNameValuePair("longitude", Double.toString(lonpost)));
+            postparameters2send.add(new BasicNameValuePair("latitude", Double.toString(latpost)));
+            postparameters2send.add(new BasicNameValuePair("longitude", Double.toString(lonpost)));
 
-        //realizamos una peticion y como respuesta obtenes un array JSON
-        JSONArray jdata = post.getserverdata(postparameters2send, URL_connect);
+            //realizamos una peticion y como respuesta obtenes un array JSON
+            JSONArray jdata = post.getserverdata(postparameters2send, URL_connect);
 
-        int logstatus = 0;
+            int logstatus = 0;
 
-        if (jdata != null && jdata.length() > 0) {
+            if (jdata != null && jdata.length() > 0) {
 
-            JSONObject json_data; //creamos un objeto JSON
-            try {
-                json_data = jdata.getJSONObject(0); //leemos el primer segmento en nuestro caso el unico
-                logstatus = json_data.getInt("logstatus");//accedemos al valor
+                JSONObject json_data; //creamos un objeto JSON
+                try {
+                    json_data = jdata.getJSONObject(0); //leemos el primer segmento en nuestro caso el unico
+                    logstatus = json_data.getInt("logstatus");//accedemos al valor
 
 
-            } catch (JSONException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
+                } catch (JSONException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+
+
             }
-
+            return logstatus == 0;
 
         }
-        return logstatus == 0;
 
     }
 
