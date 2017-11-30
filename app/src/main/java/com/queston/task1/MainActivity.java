@@ -8,45 +8,21 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.queston.task1.Login.asynclogin;
 import com.queston.task1.library.Httppostaux;
 
-import android.location.LocationManager;
 import android.os.Bundle;
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.text.Editable;
 import android.view.Menu;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.WindowManager;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.app.AlertDialog;
-import android.app.Service;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
 import android.os.AsyncTask;
-import android.os.Bundle;
-import android.os.IBinder;
-import android.os.SystemClock;
-import android.provider.Settings;
 import android.util.Log;
 
 
@@ -145,7 +121,7 @@ public class MainActivity extends Activity {
                 nombre.setText(tasks.get((int) lv.getAdapter().getItemId(position)));
                 desc.setText(desc_tasks.get((int) lv.getAdapter().getItemId(position)));
 
-                Intent i = new Intent(getApplicationContext(), QuestActivity.class);
+                Intent i = new Intent(getApplicationContext(), QuestDetailsActivity.class);
 
 
                 String nomQuest = "Hi";
@@ -190,9 +166,9 @@ public class MainActivity extends Activity {
             longitud = Double.parseDouble(params[1]);
 
             if (obtenquest(latitud, longitud)) {
-                return "ok"; //login valido
+                return "ok"; //se obtuvieron datos
             } else {
-                return "err"; //login invalido
+                return "err"; // oh no
             }
 
         }
@@ -211,7 +187,7 @@ public class MainActivity extends Activity {
 
  	/*Creamos un ArrayList del tipo nombre valor para agregar los datos recibidos por los parametros anteriores
       * y enviarlo mediante POST a nuestro sistema para relizar la validacion*/
-        ArrayList<NameValuePair> postparameters2send = new ArrayList<NameValuePair>();
+        ArrayList<NameValuePair> postparameters2send = new ArrayList<>();
 
         postparameters2send.add(new BasicNameValuePair("latitude", Double.toString(latpost)));
         postparameters2send.add(new BasicNameValuePair("longitude", Double.toString(lonpost)));
@@ -220,13 +196,6 @@ public class MainActivity extends Activity {
         JSONArray jdata = post.getserverdata(postparameters2send, URL_connect);
 
         int logstatus = 0;
-
-   		/*como estamos trabajando de manera local el ida y vuelta sera casi inmediato
-   		 * para darle un poco realismo decimos que el proceso se pare por unos segundos para poder
-   		 * observar el progressdialog
-   		 * la podemos eliminar si queremos
-   		 */
-        SystemClock.sleep(950);
 
         if (jdata != null && jdata.length() > 0) {
 

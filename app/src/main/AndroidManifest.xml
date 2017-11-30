@@ -28,7 +28,7 @@
             
         </activity>
         <activity
-            android:name="com.queston.task1.QuestActivity"
+            android:name="com.queston.task1.QuestDetailsActivity"
             >
         </activity>
         

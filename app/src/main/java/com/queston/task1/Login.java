@@ -14,7 +14,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.os.Vibrator;
 import android.util.Log;
 import android.view.View;
@@ -31,9 +30,8 @@ public class Login extends Activity {
     Button blogin;
     TextView registrar;
     Httppostaux post;
-    // String URL_connect="http://www.scandroidtest.site90.com/acces.php";
-    String IP_Server="165.227.92.254";//IP DE NUESTRO PC
-    String URL_connect="http://"+IP_Server+"/access.php";//ruta en donde estan nuestros archivos
+    String IP_Server="165.227.92.254";
+    String URL_connect="http://"+IP_Server+"/access.php";
   
     boolean result_back;
     private ProgressDialog pDialog;
@@ -55,21 +53,17 @@ public class Login extends Activity {
        
         	public void onClick(View view){
         		 
-        		//Extreamos datos de los EditText
         		String usuario=user.getText().toString();
         		String passw=pass.getText().toString();
         		
         		//verificamos si estan en blanco
         		if( checklogindata( usuario , passw )==true){
 
-        			//si pasamos esa validacion ejecutamos el asynctask pasando el usuario y clave como parametros
-        			
-        		new asynclogin().execute(usuario,passw);        		               
+        		new AsyncLogin().execute(usuario,passw);
         			      		
         		
         		}else{
-        			//si detecto un error en la primera validacion vibrar y mostrar un Toast con un mensaje de error.
-        			err_login();
+        			errLogin();
         		}
         		
         	}
@@ -90,16 +84,16 @@ public class Login extends Activity {
     }
     
     //vibra y muestra un Toast
-    public void err_login(){
+    public void errLogin(){
     	Vibrator vibrator =(Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 	    vibrator.vibrate(200);
-	    Toast toast1 = Toast.makeText(getApplicationContext(),"Error: Nombre de usuario o password incorrectos", Toast.LENGTH_SHORT);
- 	    toast1.show();    	
+	    Toast t = Toast.makeText(getApplicationContext(),"Error: Nombre de usuario o password incorrectos", Toast.LENGTH_SHORT);
+ 	    t.show();
     }
     
     
     /*Valida el estado del logueo solamente necesita como parametros el usuario y passw*/
-    public boolean loginstatus(String username ,String password ) {
+    public boolean tryToLogin(String username , String password ) {
     	int logstatus=-1;
     	
     	/*Creamos un ArrayList del tipo nombre valor para agregar los datos recibidos por los parametros anteriores
@@ -119,7 +113,7 @@ public class Login extends Activity {
 					try {
 						json_data = jdata.getJSONObject(0); //leemos el primer segmento en nuestro caso el unico
 						 logstatus=json_data.getInt("logstatus");//accedemos al valor 
-						 Log.e("loginstatus","logstatus= "+logstatus);//muestro por log que obtuvimos
+						 Log.e("tryToLogin","logstatus= "+logstatus);//muestro por log que obtuvimos
 					} catch (JSONException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
@@ -127,11 +121,11 @@ public class Login extends Activity {
 
 					//validamos el valor obtenido
 		    		 if (logstatus==1){// [{"logstatus":"0"}]
-		    			 Log.e("loginstatus ", "invalido");
+		    			 Log.e("tryToLogin ", "invalido");
 		    			 return false;
 		    		 }
 		    		 else{// [{"logstatus":"1"}]
-		    			 Log.e("loginstatus ", "valido");
+		    			 Log.e("tryToLogin ", "valido");
 		    			 return true;
 		    		 }
 
@@ -155,21 +149,12 @@ public class Login extends Activity {
     	return true;
     }
     
-}           
+}
     
-/*		CLASE ASYNCTASK
- * 
- * usaremos esta para poder mostrar el dialogo de progreso mientras enviamos y obtenemos los datos
- * podria hacerse lo mismo sin usar esto pero si el tiempo de respuesta es demasiado lo que podria ocurrir    
- * si la conexion es lenta o el servidor tarda en responder la aplicacion sera inestable.
- * ademas observariamos el mensaje de que la app no responde.     
- */
-    
-    class asynclogin extends AsyncTask< String, String, String > {
+    class AsyncLogin extends AsyncTask< String, String, String > {
     	 
     	String user,pass;
         protected void onPreExecute() {
-        	//para el progress dialog
             pDialog = new ProgressDialog(Login.this);
             pDialog.setMessage("Autenticando....");
             pDialog.setIndeterminate(false);
@@ -178,26 +163,20 @@ public class Login extends Activity {
         }
  
 		protected String doInBackground(String... params) {
-			//obtnemos usr y pass
 			user=params[0];
 			pass=params[1];
 			
-            
-			//enviamos y recibimos y analizamos los datos en segundo plano.
-    		if (loginstatus(user,pass)==true){    		    		
+			if (tryToLogin(user,pass)==true){
     			return "ok"; //login valido
     		}else{    		
     			return "err"; //login invalido     	          	  
     		}
         	
 		}
-       
-		/*Una vez terminado doInBackground segun lo que halla ocurrido 
-		pasamos a la sig. activity
-		o mostramos error*/
+
         protected void onPostExecute(String result) {
 
-           pDialog.dismiss();//ocultamos progess dialog.
+           pDialog.dismiss();
            Log.e("onPostExecute=",""+result);
            
            if (result.equals("ok")){
@@ -205,12 +184,10 @@ public class Login extends Activity {
 				Intent i=new Intent(getApplicationContext(), MainActivity.class);
 				i.putExtra("user",user);
 				startActivity(i); 
-				
-				
-				
+
 
             }else{
-            	err_login();
+            	errLogin();
             }
             
                 									}
