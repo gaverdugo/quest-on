@@ -8,7 +8,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.queston.task1.adapters.QuestsAdapter;
 import com.queston.task1.library.Httppostaux;
+import com.queston.task1.models.QuestListItem;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -34,6 +36,7 @@ public class MainActivity extends Activity {
     double radio = 20;
     ArrayList<String> tasks = new ArrayList<String>();
     ArrayList<String> desc_tasks = new ArrayList<String>();
+    ArrayList<QuestListItem> lvQuests = new ArrayList<>();
     Httppostaux post;
     String IP_Server = "165.227.92.254";//IP DE NUESTRO PC
     String URL_connect = "http://" + IP_Server + "/actualizaQuest.php";
@@ -119,11 +122,10 @@ public class MainActivity extends Activity {
 
     public void viewLista() {
         lv = (ListView) findViewById(R.id.listView1);
-        ArrayAdapter<String> arrayAdapter =
-                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, tasks);
-        lv.setAdapter(arrayAdapter);
+        lv.setAdapter(new QuestsAdapter(this, lvQuests));
         //fin de listview
 
+        /*
         final TextView nombre = (TextView) findViewById(R.id.textView3);
         final TextView desc = (TextView) findViewById(R.id.textView4);
 
@@ -148,6 +150,7 @@ public class MainActivity extends Activity {
 
             }
         });
+        */
     }
 
 
@@ -174,7 +177,9 @@ public class MainActivity extends Activity {
             latitud = Double.parseDouble(params[0]);
             longitud = Double.parseDouble(params[1]);
 
-            if (obtenquest(latitud, longitud)) {
+            if (getNearbyQuests(latitud, longitud).size() > 0) {
+                lvQuests.clear();
+                lvQuests = getNearbyQuests(latitud, longitud);
                 return "ok"; //se obtuvieron datos
             } else {
                 return "err"; // oh no
@@ -189,36 +194,37 @@ public class MainActivity extends Activity {
             Log.e("onPostExecute=", "" + result);
         }
 
-        public boolean obtenquest(double latpost, double lonpost) {
+        public ArrayList<QuestListItem> getNearbyQuests(double latpost, double lonpost) {
 
- 	/*Creamos un ArrayList del tipo nombre valor para agregar los datos recibidos por los parametros anteriores
-      * y enviarlo mediante POST a nuestro sistema para relizar la validacion*/
             ArrayList<NameValuePair> postparameters2send = new ArrayList<>();
 
             postparameters2send.add(new BasicNameValuePair("latitude", Double.toString(latpost)));
             postparameters2send.add(new BasicNameValuePair("longitude", Double.toString(lonpost)));
 
             //realizamos una peticion y como respuesta obtenes un array JSON
-            JSONArray jdata = post.getserverdata(postparameters2send, URL_connect);
+            JSONArray serverResponse = post.getserverdata(postparameters2send, URL_connect);
 
-            int logstatus = 0;
+            ArrayList<QuestListItem> quests = new ArrayList<>();
 
-            if (jdata != null && jdata.length() > 0) {
+            if (serverResponse != null && serverResponse.length() > 0) {
 
-                JSONObject json_data; //creamos un objeto JSON
-                try {
-                    json_data = jdata.getJSONObject(0); //leemos el primer segmento en nuestro caso el unico
-                    logstatus = json_data.getInt("logstatus");//accedemos al valor
-
-
-                } catch (JSONException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
+                for(int i = 0; i < serverResponse.length(); i++) {
+                    QuestListItem quest = new QuestListItem();
+                    try {
+                        JSONObject object = serverResponse.getJSONObject(i);
+                        quest.setId(object.getInt("id"));
+                        quest.setTitle(object.getString("title"));
+                        quest.setDescription(object.getString("description"));
+                        quests.add(quest);
+                    } catch (JSONException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }
                 }
 
-
             }
-            return logstatus == 0;
+
+            return quests;
 
         }
 
