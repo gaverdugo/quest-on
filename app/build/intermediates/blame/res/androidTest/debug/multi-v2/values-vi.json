@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/gaverdugo/AndroidStudioProjects/QuestOn/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-vi/values-vi.xml",
+            "map": [
+                {
+                    "source": "/Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,383,577,700,805,1029,1157,1286,1526,1631,1823,1951,2169,2344,2438,2528",
+                        "endColumns": "99,193,122,104,223,127,128,239,104,191,127,217,174,93,89,105",
+                        "endOffsets": "382,576,699,804,1028,1156,1285,1525,1630,1822,1950,2168,2343,2437,2527,2633"
+                    },
+                    "to": {
+                        "startLines": "17,18,19,20,21,22,23,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1731,1835,2029,2156,2265,2489,2621,2949,3189,3298,3490,3622,3840,4019,4117,4211",
+                        "endColumns": "103,193,126,108,223,131,132,239,108,191,131,217,178,97,93,109",
+                        "endOffsets": "1830,2024,2151,2260,2484,2616,2749,3184,3293,3485,3617,3835,4014,4112,4206,4316"
+                    }
+                },
+                {
+                    "source": "/Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,170,278,401,509,618,702,805,924,1028,1137,1238,1343,1457,1562",
+                        "endColumns": "113,107,122,107,108,83,102,118,103,108,100,104,113,104,119",
+                        "endOffsets": "165,273,396,504,613,697,800,919,1023,1132,1233,1338,1452,1557,1677"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,327,450,558,667,751,854,973,1077,1186,1287,1392,1506,1611",
+                        "endColumns": "113,107,122,107,108,83,102,118,103,108,100,104,113,104,119",
+                        "endOffsets": "214,322,445,553,662,746,849,968,1072,1181,1282,1387,1501,1606,1726"
+                    }
+                },
+                {
+                    "source": "/Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "194",
+                        "endOffsets": "479"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2754",
+                        "endColumns": "194",
+                        "endOffsets": "2944"
+                    }
+                }
+            ]
+        }
+    ]
+}

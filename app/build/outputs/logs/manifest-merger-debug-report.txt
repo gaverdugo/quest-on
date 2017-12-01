@@ -1,17 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-42:12
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-39:12
 MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:14:4-17:12
 MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:14:4-17:12
-MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:14:4-17:12
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-42:12
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/7583c12e3afe14e2ec36dec2310521a8/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/bc02034a6e4a370f566b8bfcee82efc7/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/2898eae808c89dc4b24c96e2791d235c/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/a9faaab49b2beb24695b8b1464a520b0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/532d550bbb8696adabb4b24a103e2bec/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/7a3f00850f71db4d7e282265dd8dd836/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/068505d1147507618e3113b62fe758b9/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/4cee67732db2c2cacee36a0e600ba144/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/c71fa4ec110b69c71bb02bd21326a23b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/821e4d3d2524e800dff59e504a352c39/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/56a3bb88b1e8e720d4380a6fdfb77dc0/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:3:5-32
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -24,83 +37,169 @@ INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/Androi
 		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:4:5-28
 		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:8:22-63
+application
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:10:5-34:19
+MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:16:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/7583c12e3afe14e2ec36dec2310521a8/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/7583c12e3afe14e2ec36dec2310521a8/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/bc02034a6e4a370f566b8bfcee82efc7/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/bc02034a6e4a370f566b8bfcee82efc7/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/2898eae808c89dc4b24c96e2791d235c/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/2898eae808c89dc4b24c96e2791d235c/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/a9faaab49b2beb24695b8b1464a520b0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/a9faaab49b2beb24695b8b1464a520b0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/532d550bbb8696adabb4b24a103e2bec/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/532d550bbb8696adabb4b24a103e2bec/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/7a3f00850f71db4d7e282265dd8dd836/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/7a3f00850f71db4d7e282265dd8dd836/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/068505d1147507618e3113b62fe758b9/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/068505d1147507618e3113b62fe758b9/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/4cee67732db2c2cacee36a0e600ba144/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/4cee67732db2c2cacee36a0e600ba144/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/c71fa4ec110b69c71bb02bd21326a23b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/c71fa4ec110b69c71bb02bd21326a23b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/821e4d3d2524e800dff59e504a352c39/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/821e4d3d2524e800dff59e504a352c39/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/56a3bb88b1e8e720d4380a6fdfb77dc0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/56a3bb88b1e8e720d4380a6fdfb77dc0/AndroidManifest.xml:5:5-20
+	android:label
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:12:9-37
+	android:allowBackup
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.example.queston.Login
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:excludeFromRecents
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:15:85-118
+	android:noHistory
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:15:60-84
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:15:19-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:16:9-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.queston.MainActivity
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:21:20-25:20
+	android:label
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:22:13-60
+activity#com.example.queston.QuestDetailsActivity
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:26:9-29:20
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:27:13-68
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:31:9-33:71
+	android:value
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:33:13-68
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:32:13-58
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:36:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:37:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:37:22-64
 uses-sdk
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:15:5-42
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/7583c12e3afe14e2ec36dec2310521a8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/7583c12e3afe14e2ec36dec2310521a8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/bc02034a6e4a370f566b8bfcee82efc7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/bc02034a6e4a370f566b8bfcee82efc7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/2898eae808c89dc4b24c96e2791d235c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/2898eae808c89dc4b24c96e2791d235c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/a9faaab49b2beb24695b8b1464a520b0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/a9faaab49b2beb24695b8b1464a520b0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/532d550bbb8696adabb4b24a103e2bec/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/532d550bbb8696adabb4b24a103e2bec/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/7a3f00850f71db4d7e282265dd8dd836/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/7a3f00850f71db4d7e282265dd8dd836/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/068505d1147507618e3113b62fe758b9/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/068505d1147507618e3113b62fe758b9/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/4cee67732db2c2cacee36a0e600ba144/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/4cee67732db2c2cacee36a0e600ba144/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/c71fa4ec110b69c71bb02bd21326a23b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/c71fa4ec110b69c71bb02bd21326a23b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/821e4d3d2524e800dff59e504a352c39/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/821e4d3d2524e800dff59e504a352c39/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/56a3bb88b1e8e720d4380a6fdfb77dc0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/56a3bb88b1e8e720d4380a6fdfb77dc0/AndroidManifest.xml:4:5-43
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/bc02034a6e4a370f566b8bfcee82efc7/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:8:9-34
 		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:11:5-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:11:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:12:5-81
-	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:12:22-78
-uses-permission#android.permission.VIBRATE
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:13:5-65
-	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:13:22-63
-application
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:15:5-37:19
-MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:gridlayout-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-21.0.3.aar/562c4b3e4b144b0d2a078edfa31a1ae7/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.3.aar/ae74132ab286b8ae765022a3260a086f/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:support-v4:21.0.3] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.3.aar/3d82d0bf4c91bbe5f7d2a21d31fc5d91/AndroidManifest.xml:16:5-19
-	android:label
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:18:9-41
-	android:icon
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:17:9-37
-	android:allowBackup
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/11c31b4ec50e40533baa3b7f12190d56/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:19:9-40
-activity#com.queston.task1.Login
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:20:9-26:20
-	android:excludeFromRecents
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:20:83-116
-	android:noHistory
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:20:58-82
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:20:19-57
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:21:9-25:29
-action#android.intent.action.MAIN
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:22:17-69
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/d9ba7d53bf18254bb385c33c4a9dbb19/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:22:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:24:17-77
-	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:24:27-74
-activity#com.queston.task1.MainActivity
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:26:20-30:20
-	android:label
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:28:13-45
-	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:27:13-58
-activity#com.queston.task1.QuestDetailsActivity
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:31:9-34:20
-	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:32:13-66
-uses-permission#android.permission.INTERNET
-ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:40:5-67
-	android:name
-		ADDED from /Users/gaverdugo/AndroidStudioProjects/QuestOn/app/src/main/AndroidManifest.xml:40:22-64
+		ADDED from [com.google.android.gms:play-services-basement:11.6.0] /Users/gaverdugo/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7955174e24be020bea49a059313e36f8/AndroidManifest.xml:20:20-65
