@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import com.example.queston.library.Httppostaux;
 import com.example.queston.models.QuestDetail;
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -40,6 +42,8 @@ public class QuestDetailsActivity extends Activity implements OnMapReadyCallback
     Double latitude;
     Double longitude;
 
+    int id;
+
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		
@@ -51,14 +55,15 @@ public class QuestDetailsActivity extends Activity implements OnMapReadyCallback
 		txtReward = (TextView) findViewById(R.id.rewardQuest);
 		txtXP = (TextView) findViewById(R.id.xpQuest);
 
+		latitude = 0d;
+		longitude = 0d;
+
 		btnBack = (Button) findViewById(R.id.btnBack);
 		httppostaux = new Httppostaux();
 		questDetail = new QuestDetail();
 		
-        int id = getIntent().getIntExtra("idQuest", 0);
+        id = getIntent().getIntExtra("idQuest", 0);
         Log.w("QuestDetailsActivity", "id: " + id);
-
-        new AsyncDetails().execute(Integer.toString(id));
 
 		btnBack.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -68,13 +73,15 @@ public class QuestDetailsActivity extends Activity implements OnMapReadyCallback
 		});
 
 		mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.questMap);
-		mapFragment.getMapAsync(this);
+
+        new AsyncDetails().execute(Integer.toString(id));
 
 	}
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
         googleMap.addMarker(new MarkerOptions().position(new LatLng(latitude, longitude)).title(questDetail.getTitle()));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latitude, longitude), 15));
     }
 
     class AsyncDetails extends AsyncTask<String, String, String> {
@@ -96,6 +103,8 @@ public class QuestDetailsActivity extends Activity implements OnMapReadyCallback
 
             longitude = questDetail.getLongitude();
             latitude = questDetail.getLatitude();
+
+            mapFragment.getMapAsync(QuestDetailsActivity.this);
 
         }
 
