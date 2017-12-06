@@ -39,21 +39,17 @@ public class MainActivity extends Activity {
     ArrayList<QuestListItem> lvQuests = new ArrayList<>();
     QuestsAdapter questsAdapter;
     Httppostaux post;
-    String IP_Server = "165.227.92.254";//IP DE NUESTRO PC
+    String IP_Server = "165.227.92.254";
     String URL_connect = "http://" + IP_Server + "/actualizaQuest.php";
     private ProgressDialog pDialog;
 
 
-    //hola
-
-    // el onCreate hace el listview y pone el listener para cuando le demos el lugar nos
-    //muestre las quests de ese lugar
     @Override
     public void onCreate(Bundle saveInstanceState) {
         setContentView(R.layout.activity_main);
         super.onCreate(saveInstanceState);
         pDialog = new ProgressDialog(MainActivity.this);
-        pDialog.setMessage("Autenticando....");
+        pDialog.setMessage("Actualizando....");
         pDialog.setIndeterminate(false);
         pDialog.setCancelable(false);
 
@@ -66,7 +62,7 @@ public class MainActivity extends Activity {
         String usuario = i.getStringExtra("user");
         t.setText("Hola  " + usuario + "!");
 
-        viewLista();
+        generateListView();
 
         //empieza listview
     }
@@ -91,7 +87,7 @@ public class MainActivity extends Activity {
 
     //Metodo para el boton de actualizar
     //Hace un async para actualizar desde la abse de datos trayendo las quests cercanas
-    public void clickgps(View v) {
+    public void updateLocation(View v) {
         GPSTracker gps = new GPSTracker(MainActivity.this);
 
         if (gps.canGetLocation()) {
@@ -110,23 +106,23 @@ public class MainActivity extends Activity {
 
         Toast.makeText(getApplicationContext(), "Lat: " + latitude + "\nLon:" + longitude, Toast.LENGTH_SHORT).show();
         gps.stopSelf();
-        viewLista();
+        generateListView();
     }
 
 
     //Metodo para logout
-    public void cambianombre(View v) {
+    public void logOut(View v) {
         final TextView t = (TextView) findViewById(R.id.txtLat);
 
 
-        Intent i = new Intent(MainActivity.this, Login.class);
+        Intent i = new Intent(MainActivity.this, LoginActivity.class);
         finish();
         startActivity(i);
 
     }
 
 
-    public void viewLista() {
+    public void generateListView() {
         lv = (ListView) findViewById(R.id.listView1);
         lv.setAdapter(new QuestsAdapter(this, lvQuests));
         lv.setOnItemClickListener(new OnItemClickListener() {
@@ -166,13 +162,6 @@ public class MainActivity extends Activity {
             }
         });
         */
-    }
-
-
-    public void crearQuest() {
-        Intent i = new Intent(MainActivity.this, crearQuest.class);
-        finish();
-        startActivity(i);
     }
 
 

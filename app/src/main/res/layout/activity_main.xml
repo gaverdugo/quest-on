@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtLat"
         android:layout_below="@+id/txtLat"
-        android:onClick="cambianombre"
+        android:onClick="logOut"
         android:text="LogOut" />
 
     <Button
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/relativeLayout1"
         android:layout_toRightOf="@id/button1"
-        android:onClick="clickgps"
+        android:onClick="updateLocation"
         android:text="Actualizar" />
 
     <TextView
@@ -66,22 +66,5 @@
         android:layout_alignParentTop="true"
         android:text="@string/textview"
         android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/txtLat"
-        android:layout_toRightOf="@+id/button2"
-        android:text="Monedas: " />
-
-    <Button
-        android:id="@+id/crearQuest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_alignTop="@+id/textView4"
-        android:layout_marginTop="21dp"
-        android:text="Crear Quest" />
 
 </RelativeLayout>
